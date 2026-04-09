@@ -8,7 +8,7 @@
   --bg: #ffffff;
   --bg-alt: #f7fafc;
   --border: #e2e8f0;
-  --sidebar-width: 320px;
+  --sidebar-width: 380px;
   --shadow: 0 1px 3px rgba(0,0,0,0.08);
   --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
   --transition: 0.3s ease;
@@ -53,7 +53,7 @@ body {
 
 .avatar-photo {
   width: 100%;
-  max-width: 200px;
+  max-width: 220px;
   height: auto;
   border-radius: 6px;
   object-fit: cover;
@@ -212,6 +212,67 @@ body {
   color: var(--text-light);
   margin-bottom: 1rem;
   margin-top: -0.5rem;
+}
+
+/* Featured Research */
+.featured-paper {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+
+.featured-title {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+
+.featured-status {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: white;
+  background: #d69e2e;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+
+.featured-abstract {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.featured-findings, .featured-mechanisms {
+  margin-bottom: 0.75rem;
+}
+
+.featured-findings h4, .featured-mechanisms h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+
+.featured-findings ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+.featured-findings li {
+  margin-bottom: 0.3rem;
+}
+
+.featured-mechanisms p {
+  font-size: 0.88rem;
+  line-height: 1.7;
 }
 
 /* About */
