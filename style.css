@@ -450,6 +450,12 @@ body {
   color: var(--text-light);
 }
 
+.visitor-count {
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .sidebar {
